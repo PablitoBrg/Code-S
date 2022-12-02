@@ -1,0 +1,1 @@
+window.alert("Cherché les capotes !");

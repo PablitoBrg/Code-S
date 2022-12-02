@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+  
+  <div class="container">
+      <button class="btn" data-target="#modal1">Open Modal</button>
+      <button class="btn" data-target="#modal2">Open Modal 2</button>
+      <button class="btn" data-target="#modal3">Open Modal 2</button>
+    </div>
+
+    <div class="modal" id="modal1">
+      <div class="header">
+        <div class="title"></div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        Vous avez trouvez le téléphone !
+      </div>
+    </div>
+
+
+    <div class="modal" id="modal2">
+      <div class="header">
+        <div class="title"></div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        Vous avez trouvez le sac à main !
+        Vous trouvez le début d'un numéro : 0 800.
+      </div>
+    </div>
+
+    <div class="modal" id="modal3">
+      <div class="header">
+        <div class="title"></div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        Vous avez trouvez un numéro : 840
+    </div>
+
+    <div class="modal" id="modal4">
+      <div class="header">
+        <div class="title"></div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        Vous avez trouvé la fin du numéro : 800
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
